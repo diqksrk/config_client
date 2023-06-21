@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RefreshScope
 public class ConfigController {
 
-    @Value("${minjun.test}")
+    @Value("${apigw.url}")
     private String str1;
 
     @GetMapping("/test1")
